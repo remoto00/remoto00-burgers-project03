@@ -17,15 +17,15 @@
       "key": "bun",
       "instruction": "Choose your bun",
       "type": "single",
-      "confirmation": "Good choice!",
+      "confirmation": "Great choice!",
       "options": ["Sesame", "Brioche", "Lettuce Wrap"]
     },
     {
       "id": 2,
       "burgerId": 1,
       "stepOrder": 2,
-      "key": "patty",
-      "instruction": "Choose your patty",
+      "key": "protein",
+      "instruction": "Choose your protein",
       "type": "single",
       "confirmation": "Nice pick!",
       "options": ["Beef Patty", "Double Beef Patty", "Plant-Based Patty"]
@@ -37,7 +37,7 @@
       "key": "toppings",
       "instruction": "Choose your toppings",
       "type": "multi",
-      "confirmation": "tasty!",
+      "confirmation": "Extra tasty!",
       "options": ["Lettuce", "Tomato", "Pickles", "Onions", "Jalapenos"]
     },
     {
@@ -47,7 +47,7 @@
       "key": "sauce",
       "instruction": "Choose your sauce and servings",
       "type": "sauce",
-      "confirmation": "Yum!",
+      "confirmation": "Saucy choice!",
       "feedbackThreshold": 3,
       "feedbackMessage": "Too much sauce might overpower the flavor!",
       "options": ["Ketchup", "BBQ", "Mayo", "Buffalo"]
@@ -73,19 +73,18 @@
       "options": [
         {
           "label": "Dine-In Tray",
-          "image": "https://via.placeholder.com/250x160?text=Dine-In+Tray"
+          "image": "https://raw.githubusercontent.com/remoto00/remoto00-burgers-project03/main/Dine-in-tray.jpg"
         },
         {
           "label": "Takeout",
-          "image": "https://via.placeholder.com/250x160?text=Takeout"
+          "image": "https://raw.githubusercontent.com/remoto00/remoto00-burgers-project03/main/Takeout.jpg"
         },
         {
           "label": "Delivery",
-          "image": "https://via.placeholder.com/250x160?text=Delivery"
+          "image": "https://raw.githubusercontent.com/remoto00/remoto00-burgers-project03/main/Delivery.jpg"
         }
       ]
     },
-
     {
       "id": 7,
       "burgerId": 2,
@@ -149,15 +148,15 @@
       "options": [
         {
           "label": "Dine-In Tray",
-          "image": "https://via.placeholder.com/250x160?text=Dine-In+Tray"
+          "image": "https://raw.githubusercontent.com/remoto00/remoto00-burgers-project03/main/Dine-in-tray.jpg"
         },
         {
           "label": "Takeout",
-          "image": "https://via.placeholder.com/250x160?text=Takeout"
+          "image": "https://raw.githubusercontent.com/remoto00/remoto00-burgers-project03/main/Takeout.jpg"
         },
         {
           "label": "Delivery",
-          "image": "https://via.placeholder.com/250x160?text=Delivery"
+          "image": "https://raw.githubusercontent.com/remoto00/remoto00-burgers-project03/main/Delivery.jpg"
         }
       ]
     }
