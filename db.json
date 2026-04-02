@@ -1,0 +1,165 @@
+{
+  "burgers": [
+    {
+      "id": 1,
+      "name": "Classic Beef Burger"
+    },
+    {
+      "id": 2,
+      "name": "Grilled Chicken Burger"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "burgerId": 1,
+      "stepOrder": 1,
+      "key": "bun",
+      "instruction": "Choose your bun",
+      "type": "single",
+      "confirmation": "Great choice!",
+      "options": ["Sesame", "Brioche", "Lettuce Wrap"]
+    },
+    {
+      "id": 2,
+      "burgerId": 1,
+      "stepOrder": 2,
+      "key": "protein",
+      "instruction": "Choose your protein",
+      "type": "single",
+      "confirmation": "Nice pick!",
+      "options": ["Beef Patty", "Double Beef Patty", "Plant-Based Patty"]
+    },
+    {
+      "id": 3,
+      "burgerId": 1,
+      "stepOrder": 3,
+      "key": "toppings",
+      "instruction": "Choose your toppings",
+      "type": "multi",
+      "confirmation": "Extra tasty!",
+      "options": ["Lettuce", "Tomato", "Pickles", "Onions", "Jalapenos"]
+    },
+    {
+      "id": 4,
+      "burgerId": 1,
+      "stepOrder": 4,
+      "key": "sauce",
+      "instruction": "Choose your sauce and servings",
+      "type": "sauce",
+      "confirmation": "Saucy choice!",
+      "feedbackThreshold": 3,
+      "feedbackMessage": "Too much sauce might overpower the flavor!",
+      "options": ["Ketchup", "BBQ", "Mayo", "Buffalo"]
+    },
+    {
+      "id": 5,
+      "burgerId": 1,
+      "stepOrder": 5,
+      "key": "extras",
+      "instruction": "Choose your extras",
+      "type": "multi",
+      "confirmation": "Loaded up!",
+      "options": ["Cheese", "Bacon", "Double Patty", "Avocado"]
+    },
+    {
+      "id": 6,
+      "burgerId": 1,
+      "stepOrder": 6,
+      "key": "presentation",
+      "instruction": "Choose your presentation style",
+      "type": "image",
+      "confirmation": "Looks delicious!",
+      "options": [
+        {
+          "label": "Dine-In Tray",
+          "image": "https://via.placeholder.com/250x160?text=Dine-In+Tray"
+        },
+        {
+          "label": "Takeout",
+          "image": "https://via.placeholder.com/250x160?text=Takeout"
+        },
+        {
+          "label": "Delivery",
+          "image": "https://via.placeholder.com/250x160?text=Delivery"
+        }
+      ]
+    },
+
+    {
+      "id": 7,
+      "burgerId": 2,
+      "stepOrder": 1,
+      "key": "bun",
+      "instruction": "Choose your bun",
+      "type": "single",
+      "confirmation": "Great choice!",
+      "options": ["Sesame", "Brioche", "Lettuce Wrap"]
+    },
+    {
+      "id": 8,
+      "burgerId": 2,
+      "stepOrder": 2,
+      "key": "protein",
+      "instruction": "Choose your protein",
+      "type": "single",
+      "confirmation": "Nice pick!",
+      "options": ["Chicken Patty", "Crispy Chicken", "Plant-Based Patty"]
+    },
+    {
+      "id": 9,
+      "burgerId": 2,
+      "stepOrder": 3,
+      "key": "toppings",
+      "instruction": "Choose your toppings",
+      "type": "multi",
+      "confirmation": "Extra tasty!",
+      "options": ["Lettuce", "Tomato", "Pickles", "Onions", "Jalapenos"]
+    },
+    {
+      "id": 10,
+      "burgerId": 2,
+      "stepOrder": 4,
+      "key": "sauce",
+      "instruction": "Choose your sauce and servings",
+      "type": "sauce",
+      "confirmation": "Saucy choice!",
+      "feedbackThreshold": 3,
+      "feedbackMessage": "Too much sauce might overpower the flavor!",
+      "options": ["Ketchup", "BBQ", "Mayo", "Buffalo"]
+    },
+    {
+      "id": 11,
+      "burgerId": 2,
+      "stepOrder": 5,
+      "key": "extras",
+      "instruction": "Choose your extras",
+      "type": "multi",
+      "confirmation": "Loaded up!",
+      "options": ["Cheese", "Bacon", "Avocado", "Fried Egg"]
+    },
+    {
+      "id": 12,
+      "burgerId": 2,
+      "stepOrder": 6,
+      "key": "presentation",
+      "instruction": "Choose your presentation style",
+      "type": "image",
+      "confirmation": "Looks delicious!",
+      "options": [
+        {
+          "label": "Dine-In Tray",
+          "image": "https://via.placeholder.com/250x160?text=Dine-In+Tray"
+        },
+        {
+          "label": "Takeout",
+          "image": "https://via.placeholder.com/250x160?text=Takeout"
+        },
+        {
+          "label": "Delivery",
+          "image": "https://via.placeholder.com/250x160?text=Delivery"
+        }
+      ]
+    }
+  ]
+}
