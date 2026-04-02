@@ -17,15 +17,15 @@
       "key": "bun",
       "instruction": "Choose your bun",
       "type": "single",
-      "confirmation": "Great choice!",
+      "confirmation": "Good choice!",
       "options": ["Sesame", "Brioche", "Lettuce Wrap"]
     },
     {
       "id": 2,
       "burgerId": 1,
       "stepOrder": 2,
-      "key": "protein",
-      "instruction": "Choose your protein",
+      "key": "patty",
+      "instruction": "Choose your patty",
       "type": "single",
       "confirmation": "Nice pick!",
       "options": ["Beef Patty", "Double Beef Patty", "Plant-Based Patty"]
@@ -37,7 +37,7 @@
       "key": "toppings",
       "instruction": "Choose your toppings",
       "type": "multi",
-      "confirmation": "Extra tasty!",
+      "confirmation": "tasty!",
       "options": ["Lettuce", "Tomato", "Pickles", "Onions", "Jalapenos"]
     },
     {
@@ -47,7 +47,7 @@
       "key": "sauce",
       "instruction": "Choose your sauce and servings",
       "type": "sauce",
-      "confirmation": "Saucy choice!",
+      "confirmation": "Yum!",
       "feedbackThreshold": 3,
       "feedbackMessage": "Too much sauce might overpower the flavor!",
       "options": ["Ketchup", "BBQ", "Mayo", "Buffalo"]
