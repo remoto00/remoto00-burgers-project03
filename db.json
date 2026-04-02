@@ -18,16 +18,16 @@
       "instruction": "Choose your bun",
       "type": "single",
       "confirmation": "Great choice!",
-      "options": ["Sesame", "Brioche", "Lettuce Wrap"]
+      "options": ["Sesame", "Brioche", "Jalapeno bun"]
     },
     {
       "id": 2,
       "burgerId": 1,
       "stepOrder": 2,
-      "key": "protein",
-      "instruction": "Choose your protein",
+      "key": "patty",
+      "instruction": "Choose your patty",
       "type": "single",
-      "confirmation": "Nice pick!",
+      "confirmation": "Nice!",
       "options": ["Beef Patty", "Double Beef Patty", "Plant-Based Patty"]
     },
     {
@@ -37,7 +37,7 @@
       "key": "toppings",
       "instruction": "Choose your toppings",
       "type": "multi",
-      "confirmation": "Extra tasty!",
+      "confirmation": "Tasty!",
       "options": ["Lettuce", "Tomato", "Pickles", "Onions", "Jalapenos"]
     },
     {
@@ -47,7 +47,7 @@
       "key": "sauce",
       "instruction": "Choose your sauce and servings",
       "type": "sauce",
-      "confirmation": "Saucy choice!",
+      "confirmation": "Yum!",
       "feedbackThreshold": 3,
       "feedbackMessage": "Too much sauce might overpower the flavor!",
       "options": ["Ketchup", "BBQ", "Mayo", "Buffalo"]
@@ -69,7 +69,7 @@
       "key": "presentation",
       "instruction": "Choose your presentation style",
       "type": "image",
-      "confirmation": "Looks delicious!",
+      "confirmation": "Great!",
       "options": [
         {
           "label": "Dine-In Tray",
@@ -102,7 +102,7 @@
       "key": "protein",
       "instruction": "Choose your protein",
       "type": "single",
-      "confirmation": "Nice pick!",
+      "confirmation": "Nice!",
       "options": ["Chicken Patty", "Crispy Chicken", "Plant-Based Patty"]
     },
     {
@@ -112,7 +112,7 @@
       "key": "toppings",
       "instruction": "Choose your toppings",
       "type": "multi",
-      "confirmation": "Extra tasty!",
+      "confirmation": "Tasty!",
       "options": ["Lettuce", "Tomato", "Pickles", "Onions", "Jalapenos"]
     },
     {
@@ -122,7 +122,7 @@
       "key": "sauce",
       "instruction": "Choose your sauce and servings",
       "type": "sauce",
-      "confirmation": "Saucy choice!",
+      "confirmation": "Yum!",
       "feedbackThreshold": 3,
       "feedbackMessage": "Too much sauce might overpower the flavor!",
       "options": ["Ketchup", "BBQ", "Mayo", "Buffalo"]
@@ -144,7 +144,7 @@
       "key": "presentation",
       "instruction": "Choose your presentation style",
       "type": "image",
-      "confirmation": "Looks delicious!",
+      "confirmation": "Great!",
       "options": [
         {
           "label": "Dine-In Tray",
